@@ -94,14 +94,19 @@ Global execution context:
 
 
 
-
-
+**Callback function**
+A callback function can take a function without a name, like example below:
+```javascript
+function displayStaffStatus() {
+  availableAirplanes.forEach(function(element){})
+}
+```
 
 
 
 
 **Modules**
-Exporting modules.
+Exporting variables.
 
 ```javascript
 function function1(p1, p2) {
@@ -114,3 +119,5 @@ function function1(p1, p2) {
 
 export { function1, function2};
 ```
+
+Exporting functions
