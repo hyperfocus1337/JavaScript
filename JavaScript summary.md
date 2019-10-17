@@ -1,6 +1,5 @@
 <h1 id="javascript-summary">JavaScript summary</h1>
-<p>These are my notes from learning the JavaScript language. These notes are inspired from two Udemy courses and a book.<br>
-The courses are <a href="https://www.udemy.com/course/understand-javascript/">JavaScript: Understanding the Weird Parts</a> and <a href="https://www.udemy.com/course/advanced-javascript-concepts/">Advanced JavaScript Concepts</a>. And the book is called <a href="https://eloquentjavascript.net/Eloquent_JavaScript.pdf">Eloquent Javascript</a>.</p>
+<p>These are my notes from learning the JavaScript language. These notes are inspired from two Udemy courses and a book. The courses are <a href="https://www.udemy.com/course/understand-javascript/">JavaScript: Understanding the Weird Parts</a> and <a href="https://www.udemy.com/course/advanced-javascript-concepts/">Advanced JavaScript Concepts</a>. And the book is called <a href="https://eloquentjavascript.net/Eloquent_JavaScript.pdf">Eloquent Javascript</a>.</p>
 <h2 id="language-characteristics">Language characteristics</h2>
 <p><strong>Syntax parsers</strong><br>
 Testing</p>
