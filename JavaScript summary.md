@@ -1,6 +1,6 @@
 <h2 id="javascript-summary">JavaScript summary</h2>
 <p><strong>Syntax parsers</strong><br>
-Test</p>
+Testing</p>
 <p><strong>Lexical environment</strong><br>
 Used so compiler can understand where to put things/what actions to undertake.</p>
 <p><strong>Execution context</strong><br>
