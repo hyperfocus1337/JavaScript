@@ -1,9 +1,10 @@
 # JavaScript summary
-These are my notes from learning the JavaScript language. I have used several resources to learn the language, the notes are inspired from all these resources. I have used two Udemy courses, a book, online resources and two learning environments. 
+These are my notes from learning the JavaScript language. I have used several resources to learn the language, the notes are inspired from all these resources. I have used two Udemy courses, video's on YouTube, a book, online resources and two learning environments. 
 
-The Udemy courses:
+Video resources:
 [JavaScript: Understanding the Weird Parts](https://www.udemy.com/course/understand-javascript/)
 [Advanced JavaScript Concepts](https://www.udemy.com/course/advanced-javascript-concepts/)
+[Learn JavaScript - Full Course for Beginners](https://www.youtube.com/watch?v=PkZNo7MFNFg)
 
 Text resources:
 [Eloquent Javascript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
@@ -91,11 +92,16 @@ multi-line comment */
 
 **Variables**
 
-Declare variable.
+Declare (unitialized) variables.
 ```js
 var ourName;
 let ourName;
 const ourName;
+```
+
+Set variable.
+```js
+var ourName = 5;
 ```
 
 Add or remove from variable.
@@ -103,6 +109,30 @@ Add or remove from variable.
 var myVar = 1;
 myVar += 5; (or myVar -= 5;)
 console.log(myVar); // Returns 6 or 4
+```
+
+**Escaping**
+```js
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\r	carriage return
+\t	tab
+\b	word boundary
+\f	form feed
+```
+
+Escaping with double quotes.
+```js
+var myStr = "I am a \"double quoted\" string inside \"double quotes\";
+console.log(myStr);
+```
+
+Escaping with single quotes and backticks.
+```js
+var myStr = `'<a href="http://www.example.com" target="_blank">Link</a>'`;
+console.log(myStr);
 ```
 
 
@@ -233,3 +263,6 @@ const myFirstPromise = new Promise(executorFunction);
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE0NjU0MTU0NTRdfQ==
+-->
