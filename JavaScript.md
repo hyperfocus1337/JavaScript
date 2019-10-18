@@ -263,6 +263,3 @@ const myFirstPromise = new Promise(executorFunction);
 
 
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU0MTU0NTRdfQ==
--->
