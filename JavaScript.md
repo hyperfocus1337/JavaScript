@@ -13,6 +13,8 @@ The learning environments:
 [FreeCodeCamp](https://learn.freecodecamp.org/)
 [CodeCademy](https://www.codecademy.com/learn/introduction-to-javascript)
 
+Scrimba environments:
+[Modern JavaScript](https://scrimba.com/playlist/p7v3gCd)
 
 
 ## Language characteristics
@@ -78,8 +80,36 @@ Global execution context:
 
 ## Syntax
 
+**Comments**
+```js
+// This is an in-line comment.
+```
+```js
+/* This is a
+multi-line comment */
+```
 
 **Variables**
+
+Declare variable.
+```js
+var ourName;
+let ourName;
+const ourName;
+```
+
+Add or remove from variable.
+```js
+var myVar = 1;
+myVar += 5; (or myVar -= 5;)
+console.log(myVar); // Returns 6 or 4
+```
+
+
+**Data types**
+
+
+
 
 
 
@@ -94,6 +124,33 @@ Global execution context:
 
 
 
+
+**Objects**
+
+
+
+
+
+
+**Arrays**
+
+array.push()
+```js
+var arr = [1,2,3];
+arr.push(4);
+// arr is now [1,2,3,4]
+```
+
+`array.pop()` is used to "pop" a value off of the end of an array.
+```js
+var threeArr = [1, 4, 6];
+var oneDown = threeArr.pop();
+console.log(oneDown); // Returns 6
+console.log(threeArr); // Returns [1, 4]
+```
+
+
+
 **Callback function**
 A callback function can take a function without a name, like example below:
 ```javascript
@@ -101,7 +158,6 @@ function displayStaffStatus() {
   availableAirplanes.forEach(function(element){})
 }
 ```
-
 
 
 
@@ -117,7 +173,66 @@ function function1(p1, p2) {
 	return console.log("function 1");
 }
 
-export { function1, function2};
+export {function1, function2};
 ```
 
-Exporting functions
+
+
+**Named exports**
+The export keyword allows us to export objects upon declaration.
+```javascript
+export let specialty = '';
+```
+The same thing counts for functions.
+```javascript
+export function isVegetarian(){};
+```
+Named exports also conveniently offer a way to change the name of variables when we export or import them. We can do this with the `as` keyword.
+```javascript
+export { availableAirplanes as aircrafts};
+```
+
+
+
+
+# Promises
+
+```javascript
+const executorFunction = (resolve,reject) => { };
+const myFirstPromise = new Promise(executorFunction);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTY1Mzc5MjE5N119
+-->
